@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Stapple.io</title>
+
+    <link
+        rel="icon"
+        type="image/png"
+        href="img/logo.png"
+    >
+
+     <!-- FONTE TITAN ONE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <script
+        src="script.js"
+        defer
+    ></script>
+
+</head>
+
+
+<body>
+    
+    <audio id="botaoSom" src="sounds/botaoSom.mp3"></audio>
+    <audio id="cartasSom" src="sounds/cartasSom.mp3"></audio>
+    <audio id="musicaFundo" src="sounds/musicaFundo.mp3" loop></audio>
+    <audio id="perdeuSom" src="sounds/perdeuSom.mp3"></audio>
+    <audio id="timerSom" src="sounds/timerSom.mp3"></audio>
+
+    <!-- ================================================= -->
+    <!-- TÍTULO -->
+    <!-- ================================================= -->
+
+    <header class="titulo">
+        <img
+            src="img/title.png"
+            alt="Stapple.io"
+            class="imgTitulo"
+        >
+
+
+
+    </header>
+
+
+
+    <!-- ================================================= -->
+    <!-- TABULEIRO -->
+    <!-- ================================================= -->
+
+    <div class="tabuleiro">
+
+
+        <!-- IMAGEM DO TABULEIRO -->
+
+        <img
+            src="img/tabuleiro.png"
+            alt="Tabuleiro"
+            class="imagemTabuleiro"
+        >
+
+
+        <!-- BOTÃO CENTRAL -->
+
+        <img
+            src="img/botao.png"
+            alt="Botão"
+            class="imgBotao"
+        >
+
+
+        <!-- ================================================= -->
+        <!-- LETRAS -->
+        <!-- ================================================= -->
+
+        <div class="anel-alfabeto">
+
+            <span style="--i:1;">A</span>
+            <span style="--i:2;">B</span>
+            <span style="--i:3;">C</span>
+            <span style="--i:4;">D</span>
+            <span style="--i:5;">E</span>
+            <span style="--i:6;">F</span>
+            <span style="--i:7;">G</span>
+            <span style="--i:8;">H</span>
+            <span style="--i:9;">I</span>
+            <span style="--i:10;">J</span>
+            <span style="--i:11;">K</span>
+            <span style="--i:12;">L</span>
+            <span style="--i:13;">M</span>
+            <span style="--i:14;">N</span>
+            <span style="--i:15;">O</span>
+            <span style="--i:16;">P</span>
+            <span style="--i:17;">R</span>
+            <span style="--i:18;">S</span>
+            <span style="--i:19;">T</span>
+            <span style="--i:20;">W</span>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================================================= -->
+    <!-- START / CRONÔMETRO -->
+    <!-- ================================================= -->
+
+    <div class="botaoStart">
+
+        <img
+            src="img/start.png"
+            alt="Start"
+        >
+
+        <span id="tempo">
+            10
+        </span>
+
+    </div>
+
+
+
+    <!-- ================================================= -->
+    <!-- CARTAS -->
+    <!-- ================================================= -->
+
+    <div class="cartas">
+
+
+        <!-- ================================================= -->
+        <!-- CARTA TIRADA -->
+        <!-- ================================================= -->
+
+        <div class="cartaTirada">
+
+            <img
+                src="img/cartaTirada.png"
+                alt="Carta Tirada"
+            >
+
+            <span class="categoriaCarta">
+                MOVIES
+            </span>
+
+        </div>
+
+
+
+        <!-- ================================================= -->
+        <!-- PILHA DE CARTAS -->
+        <!-- ================================================= -->
+
+        <div class="botaoCartas">
+
+            <img
+                src="img/pilhaCarta.png"
+                alt="Cartas"
+            >
+        </div>
+
+
+    </div>
+<!-- ================================================= -->
+<!-- JOGADORES -->
+<!-- ================================================= -->
+
+<div class="placarJogadores">
+
+    <img
+        src="img/jogadores.png"
+        alt="Jogadores"
+        class="fundoPlacar"
+    >
+
+    <div id="listaJogadores">
+        <!-- jogadores aparecem aqui -->
+    </div>
+
+    <div class="adicionarJogador">
+
+        <input
+            type="text"
+            id="nomeJogador"
+            placeholder="NOME"
+            maxlength="12"
+        >
+
+        <button id="botaoAdicionar">
+            +
+        </button>
+
+    </div>
+
+</div>
+</body>
+
+</html>

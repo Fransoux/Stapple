@@ -1,0 +1,12 @@
+
+consertar botao
+adicionar "perdeu"
+adicionar cronometro bonitinho
+adionar sistema de jogador (ate 4 jogador)
+menu
+menu infomativo
+adiconar mnu de fazer cartas
+random jogadores comecar
+adicionar card venceu
+
+craazy mode letras girando
